@@ -1,9 +1,9 @@
 using TreeEditor;
 using UnityEngine;
 
-public class EnemyMove : MonoBehaviour 
+public class BulletMove : MonoBehaviour
 {
-    private float speed = 3.0f;
+    private float speed = 10.0f;
     private void Update()
     {
         transform.Translate(Vector3.forward * Time.deltaTime * speed);

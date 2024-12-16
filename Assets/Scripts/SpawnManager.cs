@@ -5,7 +5,7 @@ using UnityEngine.InputSystem.Android;
 public class Spawner : MonoBehaviour
 {
     public GameObject EnemyPrefab;
-    public int SpawnTime = 120;
+    private int SpawnTime = 90;
     private int counter = 0;
 
     private void FixedUpdate()
