@@ -13,7 +13,7 @@ public class MyAgent : Agent
     private int counter = 0;
 
     public GameObject Spawner;
-    float m_speed = 20;
+    float m_speed = 40;
     private Vector3 startingPosition = new Vector3 (0, 0.3f, -4);
     private float boundXLeft = -9f;
     private float boundXRight = 9f;
@@ -64,21 +64,18 @@ public class MyAgent : Agent
         switch (actionTaken)
         {
             case (int)ACTIONS.LEFT:
-                // move left
                 if (transform.localPosition.x > boundXLeft)
                 {
                     transform.Translate(Vector3.left * m_speed * Time.fixedDeltaTime);
                 }
                 break;
             case (int)ACTIONS.RIGHT:
-                // move right
                 if (transform.localPosition.x < boundXRight)
                 {
                     transform.Translate(Vector3.right * m_speed * Time.fixedDeltaTime);
                 }
                 break;
             case (int)ACTIONS.NOTHING:
-                // do nothing
                 break;
         }
 
@@ -116,8 +113,8 @@ public class MyAgent : Agent
         {
             counter++;
         }
-        Debug.Log(wallCounter);
-        if (wallCounter >= 10)
+        //Debug.Log(wallCounter);
+        if (wallCounter >= 1)
         {
             var parent = Spawner.transform;
             int numberOfChildren = parent.childCount;
