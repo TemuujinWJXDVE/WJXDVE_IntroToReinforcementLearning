@@ -18,6 +18,8 @@ public class MyAgent : Agent
     private float boundXLeft = -9f;
     private float boundXRight = 9f;
 
+    public int wallCounter = 0;
+
     private enum ACTIONS
     {
         LEFT = 0,
@@ -95,6 +97,7 @@ public class MyAgent : Agent
             }
             AddReward(-1.0f);
             EndEpisode();
+            wallCounter = 0;
         }
     }
 
@@ -112,6 +115,20 @@ public class MyAgent : Agent
         else
         {
             counter++;
+        }
+        Debug.Log(wallCounter);
+        if (wallCounter >= 10)
+        {
+            var parent = Spawner.transform;
+            int numberOfChildren = parent.childCount;
+            for (int i = 0; i < numberOfChildren; i++)
+            {
+                if (parent.GetChild(i).tag == "Enemy")
+                    Destroy(parent.GetChild(i).gameObject);
+            }
+            AddReward(-1.0f);
+            EndEpisode();
+            wallCounter = 0;
         }
     }
 }
