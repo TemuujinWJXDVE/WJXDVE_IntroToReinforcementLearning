@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\TemK\\WJXDVE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A0C997A6-8357-2DEC-4496-0D17137E5CB4}|Assembly-CSharp.csproj|C:\\Users\\TemK\\WJXDVE\\assets\\scripts\\bulletmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C997A6-8357-2DEC-4496-0D17137E5CB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulletmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A0C997A6-8357-2DEC-4496-0D17137E5CB4}|Assembly-CSharp.csproj|c:\\users\\temk\\wjxdve\\assets\\scripts\\myagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0C997A6-8357-2DEC-4496-0D17137E5CB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\myagent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A0C997A6-8357-2DEC-4496-0D17137E5CB4}|Assembly-CSharp.csproj|C:\\Users\\TemK\\WJXDVE\\assets\\scripts\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0C997A6-8357-2DEC-4496-0D17137E5CB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A0C997A6-8357-2DEC-4496-0D17137E5CB4}|Assembly-CSharp.csproj|c:\\users\\temk\\wjxdve\\assets\\scripts\\bulletmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A0C997A6-8357-2DEC-4496-0D17137E5CB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\bulletmove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A0C997A6-8357-2DEC-4496-0D17137E5CB4}|Assembly-CSharp.csproj|c:\\users\\temk\\wjxdve\\assets\\scripts\\detectcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C997A6-8357-2DEC-4496-0D17137E5CB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\detectcollision.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A0C997A6-8357-2DEC-4496-0D17137E5CB4}|Assembly-CSharp.csproj|C:\\Users\\TemK\\WJXDVE\\assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A0C997A6-8357-2DEC-4496-0D17137E5CB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A0C997A6-8357-2DEC-4496-0D17137E5CB4}|Assembly-CSharp.csproj|C:\\Users\\TemK\\WJXDVE\\assets\\scripts\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A0C997A6-8357-2DEC-4496-0D17137E5CB4}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemymove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,30 +30,56 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MyAgent.cs",
+              "DocumentMoniker": "C:\\Users\\TemK\\WJXDVE\\Assets\\Scripts\\MyAgent.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MyAgent.cs",
+              "ToolTip": "C:\\Users\\TemK\\WJXDVE\\Assets\\Scripts\\MyAgent.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MyAgent.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAcwHMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T11:19:03.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "DetectCollision.cs",
+              "DocumentMoniker": "C:\\Users\\TemK\\WJXDVE\\Assets\\Scripts\\DetectCollision.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DetectCollision.cs",
+              "ToolTip": "C:\\Users\\TemK\\WJXDVE\\Assets\\Scripts\\DetectCollision.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DetectCollision.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T13:02:47.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "BulletMove.cs",
               "DocumentMoniker": "C:\\Users\\TemK\\WJXDVE\\Assets\\Scripts\\BulletMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\BulletMove.cs",
               "ToolTip": "C:\\Users\\TemK\\WJXDVE\\Assets\\Scripts\\BulletMove.cs",
               "RelativeToolTip": "Assets\\Scripts\\BulletMove.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T12:24:56.54Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "EnemyMove.cs",
               "DocumentMoniker": "C:\\Users\\TemK\\WJXDVE\\Assets\\Scripts\\EnemyMove.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyMove.cs",
               "ToolTip": "C:\\Users\\TemK\\WJXDVE\\Assets\\Scripts\\EnemyMove.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyMove.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T12:04:03.446Z",
               "EditorCaption": ""
@@ -62,22 +92,9 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\SpawnManager.cs",
               "ToolTip": "C:\\Users\\TemK\\WJXDVE\\Assets\\Scripts\\SpawnManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\SpawnManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-16T11:43:31.83Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MyAgent.cs",
-              "DocumentMoniker": "C:\\Users\\TemK\\WJXDVE\\Assets\\Scripts\\MyAgent.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\MyAgent.cs",
-              "ToolTip": "C:\\Users\\TemK\\WJXDVE\\Assets\\Scripts\\MyAgent.cs",
-              "RelativeToolTip": "Assets\\Scripts\\MyAgent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-16T11:19:03.255Z",
               "EditorCaption": ""
             }
           ]
