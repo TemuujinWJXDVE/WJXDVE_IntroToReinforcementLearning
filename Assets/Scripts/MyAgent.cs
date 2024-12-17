@@ -9,7 +9,7 @@ using static UnityEditor.Experimental.AssetDatabaseExperimental.AssetDatabaseCou
 public class MyAgent : Agent
 {
     public GameObject BulletPrefab;
-    private int SpawnTime = 30;
+    private int SpawnTime = 10;
     private int counter = 0;
 
     public GameObject Spawner;
@@ -61,24 +61,22 @@ public class MyAgent : Agent
     public override void OnActionReceived(ActionBuffers actions)
     {
         var actionTaken = actions.DiscreteActions[0];
+
         switch (actionTaken)
         {
+            case (int)ACTIONS.NOTHING:
+                break;
             case (int)ACTIONS.LEFT:
                 if (transform.localPosition.x > boundXLeft)
-                {
-                    transform.Translate(Vector3.left * m_speed * Time.fixedDeltaTime);
-                }
+                    transform.Translate(-Vector3.right * m_speed * Time.deltaTime);
                 break;
             case (int)ACTIONS.RIGHT:
                 if (transform.localPosition.x < boundXRight)
-                {
-                    transform.Translate(Vector3.right * m_speed * Time.fixedDeltaTime);
-                }
-                break;
-            case (int)ACTIONS.NOTHING:
+                    transform.Translate(Vector3.right * m_speed * Time.deltaTime);
                 break;
         }
 
+        AddReward(0.01f);
     }
 
     private void OnTriggerEnter(Collider other)
@@ -114,7 +112,7 @@ public class MyAgent : Agent
             counter++;
         }
         //Debug.Log(wallCounter);
-        if (wallCounter >= 1)
+        if (wallCounter >= 3)
         {
             var parent = Spawner.transform;
             int numberOfChildren = parent.childCount;
