@@ -76,10 +76,9 @@ public class MyAgent : Agent
                 break;
         }
 
-        // AddReward(0.01f);
+        AddReward(0.01f);
     }
 
-    /*
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Enemy")
@@ -96,7 +95,6 @@ public class MyAgent : Agent
             wallCounter = 0;
         }
     }
-    */
 
     private void FixedUpdate()
     {

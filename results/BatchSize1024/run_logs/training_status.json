@@ -1,0 +1,47 @@
+{
+    "Training": {
+        "checkpoints": [
+            {
+                "steps": 499982,
+                "file_path": "results\\BatchSize1024\\Training\\Training-499982.onnx",
+                "reward": 3.5099998312070966,
+                "creation_time": 1734601362.5147572,
+                "auxillary_file_paths": [
+                    "results\\BatchSize1024\\Training\\Training-499982.pt"
+                ]
+            },
+            {
+                "steps": 999975,
+                "file_path": "results\\BatchSize1024\\Training\\Training-999975.onnx",
+                "reward": 3.8870965785557225,
+                "creation_time": 1734601826.66612,
+                "auxillary_file_paths": [
+                    "results\\BatchSize1024\\Training\\Training-999975.pt"
+                ]
+            },
+            {
+                "steps": 1000025,
+                "file_path": "results\\BatchSize1024\\Training\\Training-1000025.onnx",
+                "reward": 3.7968748067505658,
+                "creation_time": 1734601826.7250042,
+                "auxillary_file_paths": [
+                    "results\\BatchSize1024\\Training\\Training-1000025.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000025,
+            "file_path": "results\\BatchSize1024\\Training.onnx",
+            "reward": 3.7968748067505658,
+            "creation_time": 1734601826.7250042,
+            "auxillary_file_paths": [
+                "results\\BatchSize1024\\Training\\Training-1000025.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

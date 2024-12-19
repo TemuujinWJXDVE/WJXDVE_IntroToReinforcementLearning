@@ -1,0 +1,38 @@
+{
+    "Training": {
+        "checkpoints": [
+            {
+                "steps": 499889,
+                "file_path": "results\\LearningRate-e4\\Training\\Training-499889.onnx",
+                "reward": 4.6938886981871395,
+                "creation_time": 1734603893.1596258,
+                "auxillary_file_paths": [
+                    "results\\LearningRate-e4\\Training\\Training-499889.pt"
+                ]
+            },
+            {
+                "steps": 909185,
+                "file_path": "results\\LearningRate-e4\\Training\\Training-909185.onnx",
+                "reward": 1.792199869453907,
+                "creation_time": 1734604477.0215187,
+                "auxillary_file_paths": [
+                    "results\\LearningRate-e4\\Training\\Training-909185.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 909185,
+            "file_path": "results\\LearningRate-e4\\Training.onnx",
+            "reward": 1.792199869453907,
+            "creation_time": 1734604477.0215187,
+            "auxillary_file_paths": [
+                "results\\LearningRate-e4\\Training\\Training-909185.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

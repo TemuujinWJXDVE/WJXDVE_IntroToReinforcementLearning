@@ -1,0 +1,47 @@
+{
+    "Training": {
+        "checkpoints": [
+            {
+                "steps": 499994,
+                "file_path": "results\\LastTryMaybe2\\Training\\Training-499994.onnx",
+                "reward": 0.42687490209937096,
+                "creation_time": 1734600277.1890862,
+                "auxillary_file_paths": [
+                    "results\\LastTryMaybe2\\Training\\Training-499994.pt"
+                ]
+            },
+            {
+                "steps": 999879,
+                "file_path": "results\\LastTryMaybe2\\Training\\Training-999879.onnx",
+                "reward": 4.784324128080058,
+                "creation_time": 1734600745.9875226,
+                "auxillary_file_paths": [
+                    "results\\LastTryMaybe2\\Training\\Training-999879.pt"
+                ]
+            },
+            {
+                "steps": 1000007,
+                "file_path": "results\\LastTryMaybe2\\Training\\Training-1000007.onnx",
+                "reward": 4.784324128080058,
+                "creation_time": 1734600746.0437913,
+                "auxillary_file_paths": [
+                    "results\\LastTryMaybe2\\Training\\Training-1000007.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000007,
+            "file_path": "results\\LastTryMaybe2\\Training.onnx",
+            "reward": 4.784324128080058,
+            "creation_time": 1734600746.0437913,
+            "auxillary_file_paths": [
+                "results\\LastTryMaybe2\\Training\\Training-1000007.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

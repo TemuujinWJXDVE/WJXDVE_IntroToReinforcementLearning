@@ -1,0 +1,47 @@
+{
+    "Training": {
+        "checkpoints": [
+            {
+                "steps": 499935,
+                "file_path": "results\\Epoch5\\Training\\Training-499935.onnx",
+                "reward": 3.511999797821045,
+                "creation_time": 1734602494.599494,
+                "auxillary_file_paths": [
+                    "results\\Epoch5\\Training\\Training-499935.pt"
+                ]
+            },
+            {
+                "steps": 999898,
+                "file_path": "results\\Epoch5\\Training\\Training-999898.onnx",
+                "reward": 3.375312373507768,
+                "creation_time": 1734603068.5900643,
+                "auxillary_file_paths": [
+                    "results\\Epoch5\\Training\\Training-999898.pt"
+                ]
+            },
+            {
+                "steps": 1000026,
+                "file_path": "results\\Epoch5\\Training\\Training-1000026.onnx",
+                "reward": 3.375312373507768,
+                "creation_time": 1734603068.643809,
+                "auxillary_file_paths": [
+                    "results\\Epoch5\\Training\\Training-1000026.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1000026,
+            "file_path": "results\\Epoch5\\Training.onnx",
+            "reward": 3.375312373507768,
+            "creation_time": 1734603068.643809,
+            "auxillary_file_paths": [
+                "results\\Epoch5\\Training\\Training-1000026.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}
