@@ -1,0 +1,29 @@
+{
+    "Training": {
+        "checkpoints": [
+            {
+                "steps": 57990,
+                "file_path": "results\\Curiosity1\\Training\\Training-57990.onnx",
+                "reward": 1.9397645855651182,
+                "creation_time": 1734594344.9729464,
+                "auxillary_file_paths": [
+                    "results\\Curiosity1\\Training\\Training-57990.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 57990,
+            "file_path": "results\\Curiosity1\\Training.onnx",
+            "reward": 1.9397645855651182,
+            "creation_time": 1734594344.9729464,
+            "auxillary_file_paths": [
+                "results\\Curiosity1\\Training\\Training-57990.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

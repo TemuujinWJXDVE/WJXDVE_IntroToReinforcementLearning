@@ -76,7 +76,7 @@ public class MyAgent : Agent
                 break;
         }
 
-        AddReward(0.01f);
+        // AddReward(0.01f);
     }
 
     private void OnTriggerEnter(Collider other)
