@@ -79,6 +79,7 @@ public class MyAgent : Agent
         // AddReward(0.01f);
     }
 
+    /*
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Enemy")
@@ -95,6 +96,7 @@ public class MyAgent : Agent
             wallCounter = 0;
         }
     }
+    */
 
     private void FixedUpdate()
     {
@@ -112,7 +114,7 @@ public class MyAgent : Agent
             counter++;
         }
         //Debug.Log(wallCounter);
-        if (wallCounter >= 3)
+        if (wallCounter >= 4)
         {
             var parent = Spawner.transform;
             int numberOfChildren = parent.childCount;

@@ -1,0 +1,29 @@
+{
+    "Training": {
+        "checkpoints": [
+            {
+                "steps": 214512,
+                "file_path": "results\\Curiosity2AfterEnvRewardChange\\Training\\Training-214512.onnx",
+                "reward": -0.7395348895427792,
+                "creation_time": 1734597110.093007,
+                "auxillary_file_paths": [
+                    "results\\Curiosity2AfterEnvRewardChange\\Training\\Training-214512.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 214512,
+            "file_path": "results\\Curiosity2AfterEnvRewardChange\\Training.onnx",
+            "reward": -0.7395348895427792,
+            "creation_time": 1734597110.093007,
+            "auxillary_file_paths": [
+                "results\\Curiosity2AfterEnvRewardChange\\Training\\Training-214512.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.28.0",
+        "torch_version": "1.7.1+cu110"
+    }
+}

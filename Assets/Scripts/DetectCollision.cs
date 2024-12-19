@@ -16,7 +16,7 @@ public class DetectCollision : MonoBehaviour
             Destroy(other.gameObject);
             if (myAgent != null)
             {
-                myAgent.AddReward(0.2f);
+                myAgent.AddReward(0.5f);
             }
         }
         if (other.tag == "Wall")
